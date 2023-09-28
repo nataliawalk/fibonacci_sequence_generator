@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link type="text/css" rel="stylesheet" href="style.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">	
+</head>
+<body>
+	<header>
+	
+		<h1>Fibonacci Sequence Generator</h1>
+		
+	</header>
+	<main>
+		<article>
+			<div class="interface">
+				<label>n<sub>01</sub> = <input type="number" id="a" value="12"></label>
+				<label>n<sub>02</sub> = <input type="number" id="b" value="5"></label>
+				<label>How many sequence terms? -> <input type="number" id="ile" value="20"></label>
+			</div>
+			
+			<div class="interface">
+				Odd ->
+				<input type="button" name="np" value="red"/>
+				<input type="button" name="np" value="green"/>
+				<input type="button" name="np" value="magenta"/>
+				
+				Even ->
+				<input type="button" class="parzyste" value="red"/>
+				<input type="button" class="parzyste" value="green"/>
+				<input type="button" class="parzyste" value="magenta"/>
+				
+				&Phi; ->
+				<input type="button" class="phi" value="red"/>
+				<input type="button" class="phi" value="green"/>
+				<input type="button" class="phi" value="magenta"/>
+				
+				All ->
+				<input type="button" class="wszystkie" value="red"/>
+				<input type="button" class="wszystkie" value="green"/>
+				<input type="button" class="wszystkie" value="magenta"/>
+				
+			</div>
+			
+			<div>
+				<input type="button" id="generate_numbers" value="Generate sequence">
+				<input type="button" id="block" value="Block"/>
+			</div>
+			<div>
+				<div id="numbers"></div>
+				<div id="fi"></div>
+			</div>
+		</article>
+	</main>
+	
+	<script src="script.js"></script>	
+</body>
+</html>

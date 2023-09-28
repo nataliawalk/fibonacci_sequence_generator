@@ -1,0 +1,38 @@
+body {
+	background-color: #ffffff;
+	color: #000000;
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+	color: #f8c62f;
+}
+
+.interface {
+	margin-bottom: 20px;
+}
+
+#numbers, #fi {
+	display: inline-block;
+	margin-right: 50px;	
+}
+
+.even, .odd {
+	color: #999;
+}
+
+.ratio {
+	color: #f8c62f;
+}
+
+.czerwony {
+	color: red;
+}
+
+.zielony {
+	color: green;
+}
+
+.fioletowy {
+	color: magenta;
+}
